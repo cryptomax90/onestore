@@ -1,0 +1,79 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>OneStore – Sell your product in 5 minutes</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="logo"><span class="one">One</span><span class="store">Store</span></div>
+      <div><a class="link" href="signup.html">Pricing</a> &nbsp; <a class="link" href="signup.html">Log In</a></div>
+    </div>
+
+    <div class="badge">⚡ Sell in 5 minutes</div>
+    <h1 class="h1">Sell your product in 5 minutes</h1>
+    <p class="p">No code. Instant Stripe payments. Share your link today.</p>
+    <a href="signup.html"><button class="btn mt-16">Start for Free</button></a>
+
+    <div class="phone-mock mt-24">
+      <div class="card" style="text-align:center">
+        <div style="width:100%;height:200px;background:#EDEDED;border-radius:12px"></div>
+        <h3 id="mock-title" class="h2 mt-16">Photography Preset Pack</h3>
+        <div id="mock-price" class="h2" style="color:var(--purple)">$29</div>
+      </div>
+    </div>
+
+    <div class="feature-grid mt-24">
+      <div class="feature"><span class="icon"></span><div><strong>One-page checkout</strong><div class="small">Fewer clicks, higher conversions.</div></div></div>
+      <div class="feature"><span class="icon"></span><div><strong>Digital or physical</strong><div class="small">Downloads or shipping forms built-in.</div></div></div>
+      <div class="feature"><span class="icon"></span><div><strong>Instant Stripe payouts</strong><div class="small">Apple Pay, Google Pay, cards.</div></div></div>
+    </div>
+
+    <div class="footer"><a class="link" href="#">Terms</a><a class="link" href="#">Privacy</a><a class="link" href="#">Support</a></div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
+
+
+<!-- =========================================================
+FILE: signup.html (Sign-Up)
+========================================================= -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Create your account – OneStore</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="logo"><span class="one">One</span><span class="store">Store</span></div>
+    </div>
+
+    <div class="small">Step 1 of 3</div>
+    <div class="progress mt-8"><span style="width:33%"></span></div>
+
+    <h1 class="h1 mt-16">Create your account</h1>
+    <p class="p">Sign up to start selling your first product.</p>
+
+    <div class="row mt-16">
+      <button class="btn secondary">Continue with Google</button>
+      <input id="email" class="input" placeholder="Email"/>
+      <input id="pw" class="input" placeholder="Password" type="password"/>
+      <label class="small" for="store-url">Your store URL</label>
+      <input id="store-url" class="input" placeholder="alexphoto.shop"/>
+      <button class="btn" onclick="saveSignup()">Continue</button>
+      <div class="center small">Already have an account? <a class="link" href="#">Log In</a></div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
