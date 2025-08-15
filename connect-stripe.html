@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" data-page="store-live">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Your store is live – OneStore</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body data-page="store-live">
+  <div class="container center">
+    <div class="badge">🎉 Success</div>
+    <h1 class="h1 mt-16">Your store is live!</h1>
+    <p class="p">Share your link and start making sales today.</p>
+
+    <div id="copy-pill" class="copy-pill mt-16">
+      <div style="display:flex;align-items:center;gap:8px"><span>https://</span><strong id="live-url">alexphoto.shop</strong></div>
+      <button class="btn secondary" style="width:auto;padding:0 16px;height:40px" onclick="copyURL()">Copy</button>
+    </div>
+
+    <div class="qr mt-16">QR</div>
+
+    <div class="row cols-2 mt-16">
+      <button class="btn secondary">Share on Instagram</button>
+      <button class="btn secondary">Share via Email</button>
+    </div>
+
+    <a href="dashboard.html"><button class="btn mt-24">Go to Dashboard</button></a>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
+
