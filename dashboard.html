@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Dashboard – OneStore</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="logo"><span class="one">One</span><span class="store">Store</span></div>
+      <div class="small">Hi, Alex</div>
+    </div>
+
+    <div class="row">
+      <div class="card">
+        <div class="small">This Month</div>
+        <div id="rev" class="h1">$1,240</div>
+        <div class="small">28 orders</div>
+      </div>
+
+      <div>
+        <div class="h2">Recent Orders</div>
+        <div id="orders" class="orders mt-8">
+          <!-- JS injects rows here -->
+        </div>
+      </div>
+
+      <a href="add-product.html"><button class="btn secondary mt-16">Change Product</button></a>
+
+      <div class="tip mt-16"><strong>Tip:</strong> Post your store link on Instagram Stories to get more clicks.</div>
+      <div class="ref mt-16">Get 1 free month for every friend you refer →</div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
